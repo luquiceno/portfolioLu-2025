@@ -1,0 +1,220 @@
+[
+	{ 
+    "slug": "CaLEANdar",
+		"name": "CaLEANdar",
+		"description": "Reminder web application - MVP.",
+    "details": [
+      "Collaborated in a cross-functional team (UX/UI designers, front-end and backend developers) to create a reminder web application.",
+      "Worked closely with the UX/UI team to translate figma designs and resolve design inconsistencies to ensure integration of UI elements into a fully functional web application using Astro and CSS.",
+      "Partnered with the backend team to integrate the frontend application with Firebase.",
+      "Communicated regularly with the stakeholder “LeanMind” to gather feedback and ensure project alignment, presenting progress updates, and take feedback into account in the design and development process.",
+      "Led code reviews, providing constructive feedback to ensure code quality, specifically by reviewing pull requests."
+    ],
+		"image": "/src/assets/images/projects/caleandar.png",
+		"url": "https://www.linkedin.com/pulse/muy-buenas-personillas-cristina-pozo-lizaur-eme3e/",
+    "urlGit": "https://github.com/luquiceno/GT-Caleandar-Front",
+    "technologies": [
+      { 
+        "name":"JavaScript",
+        "image": "<img src='https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black' alt='JavaScript' />"
+      }, 
+      {
+        "name":"Astro",
+        "image": "<img src='https://img.shields.io/badge/Astro-000000?logo=astro&logoColor=white' alt='Astro' />"
+      }, 
+      {
+        "name":"CSS",
+        "image": "<img src='https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white' alt='CSS' />"
+      }, 
+      {
+        "name":"Firebase",
+        "image": "<img src='https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black' alt='Firebase' />"
+      }, 
+      {
+        "name":"Git",
+        "image": "<img src='https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white' alt='Git' />"
+      }, 
+      {
+        "name":"GitHub",
+        "image": "<img src='https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white' alt='GitHub' />"
+      },
+      {
+        "name":"HTML",
+        "image": "<img src='https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white' alt='HTML' />"
+      },
+      {
+        "name":"Web Accessibility",
+        "image": "<img src='https://img.shields.io/badge/Web%20Accessibility-000000?logo=web-accessibility&logoColor=white' alt='Web Accessibility' />"
+      },
+      {
+        "name": "TypeScript",
+        "image": "<img src='https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white' alt='TypeScript' />"
+      }
+    ]
+	},
+  {
+    "slug": "APPrende",
+		"name": "APPrende",
+		"description": "Language learning website - MVP.",
+    "details": [
+      "Created an MVP for a language learning website using React, Flowbite, and JavaScript, as a personal project and in preparation for a volunteer opportunity.",
+      "The website focuses on providing users with interactive language learning exercises.",
+      "My work involved building the user interface with React components from the Flowbite library, implementing core functionality with JavaScript, and ensuring a responsive design.",
+      "This project demonstrates my ability to learn and apply new technologies independently, as well as in creating educational tools."
+    ],
+		"image": "/src/assets/images/projects/languageApp.png",
+		"url": "https://apprende.netlify.app/",
+    "urlGit": "https://github.com/luquiceno/junior",
+    "technologies": [
+      {
+        "name":"JavaScript",
+        "image": "<img src='https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black' alt='JavaScript' />"
+      }, 
+      {
+        "name":"React",
+        "image": "<img src='https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black' alt='React' />"
+      }, 
+      {
+        "name":"Flowbite",
+        "image": "<img src='https://img.shields.io/badge/Flowbite-000000?logo=flowbite&logoColor=white' alt='Flowbite' />"
+      }, 
+      {
+        "name":"Git",
+        "image": "<img src='https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white' alt='Git' />"
+      }, 
+      {
+        "name":"GitHub",
+        "image": "<img src='https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white' alt='GitHub' />"
+      },
+      {
+        "name":"HTML",
+        "image": "<img src='https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white' alt='HTML' />"
+      }
+    ]
+	},
+  {
+    "slug": "Mozilla Project",
+		"name": "Mozilla PerfCompare",
+		"description": "Open source contribution.",
+    "details": [
+      "As an Outreachy 2023 internship applicant, I contributed to the Mozilla - PerfCompare open source project, focusing on improving the user experience of the Perfcompare tool",
+      "One of the significant learning experiences in this project was navigating and understanding the project's existing codebase, which strengthened my ability to work within established code structures.",
+      "By implementing a new UX design, I enhanced the interface with text and size adjustments, added a new button to improve usability, integrated a background image, and redesigned the dark mode with a toggle switch.",
+      "This work demonstrates my ability to translate UX designs into functional UI components using React.js, TypeScript, JavaScript, Material UI, and other relevant technologies, as well as my adaptability in working with pre-existing code."
+    ],
+		"image": "/src/assets/images/projects/perfcompare.png",
+		"url": "https://perf.compare/",
+    "urlGit": "https://github.com/mozilla/perfcompare/pull/452",
+    "technologies": [
+      {
+        "name":"HTML",
+        "image": "<img src='https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white' alt='HTML' />"
+      }, 
+      {
+        "name":"CSS",
+        "image": "<img src='https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white' alt='CSS' />"
+      }, 
+      {
+        "name":"Web Accessibility",
+        "image": "<img src='https://img.shields.io/badge/Web%20Accessibility-000000?logo=web-accessibility&logoColor=white' alt='Web Accessibility' />"
+      }, 
+      {
+        "name":"JavaScript",
+        "image": "<img src='https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black' alt='JavaScript' />"
+      },
+      {
+        "name":"MaterialUi",
+        "image": "<img src='https://img.shields.io/badge/MaterialUi-0081CB?logo=material-ui&logoColor=white' alt='MaterialUi' />"
+      },
+      {
+        "name":"Git",
+        "image": "<img src='https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white' alt='Git' />"
+      }, 
+      {
+        "name":"GitHub",
+        "image": "<img src='https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white' alt='GitHub' />"
+      }
+    ]
+	},
+  {
+    "slug": "JupyterHub Project",
+		"name": "JupyterHub Project",
+		"description": "Open source contribution.",
+    "details": [
+      "As an Outreachy 2023 internship applicant, I contributed to the JupyterHub open source project, focusing on improving web accessibility.",
+      "My accessibility work involved a thorough evaluation of JupyterHub pages using the WAVE tool, resulting in a detailed report of accessibility issues and actionable recommendations for improvement.",
+      "I also developed and integrated a pytest plugin, including a fixture and running tests within the JupyterHub project.",
+      "These contributions showcased my skills in web accessibility, Git, Python, and working within a collaborative open-source environment."
+    ],
+		"image": "/src/assets/images/projects/jupyter.png",
+		"url": "https://github.com/jupyterhub/outreachy/issues/38#issuecomment-1274454640",
+    "urlGit": "https://github.com/luquiceno/pytest-pluginlu",
+    "technologies": [
+      {
+        "name": "Python",
+        "image": "<img src='https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white' alt='Python' />"
+      },
+      {
+        "name":"Pytest",
+        "image": "<img src='https://img.shields.io/badge/Pytest-0A9EDC?logo=pytest&logoColor=white' alt='Pytest' />"
+      },
+      {
+        "name":"CSS",
+        "image": "<img src='https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white' alt='CSS' />"
+      }, 
+      {
+        "name":"Web Accessibility",
+        "image": "<img src='https://img.shields.io/badge/Web%20Accessibility-000000?logo=web-accessibility&logoColor=white' alt='Web Accessibility' />"
+      }, 
+      {
+        "name":"Git",
+        "image": "<img src='https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white' alt='Git' />"
+      }, 
+      {
+        "name":"GitHub",
+        "image": "<img src='https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white' alt='GitHub' />"
+      }
+    ]
+	},
+  {
+    "slug": "Screenshot Project",
+		"name": "Screenshot Project",
+		"description": "Open source contribution.",
+    "details": [
+      "Collaborated with a senior backend developer on the development of a screenshot sharing application, utilizing an existing open source project.",
+      "This project provided valuable experience in a team-based workflow, including Git version control, code reviews, and enhancing my frontend development skills within a team setting."
+    ],
+		"image": "/src/assets/images/projects/screenshot.png",
+		"url": "https://github.com/luquiceno/pytest-pluginlu",
+    "technologies": [
+      {
+        "name":"JavaScript",
+        "image": "<img src='https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black' alt='JavaScript' />"
+      },
+      {
+        "name":"TypeScript",
+        "image": "<img src='https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white' alt='TypeScript' />"
+      },
+      {
+        "name":"React", 
+        "image": "<img src='https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black' alt='React' />"
+      },
+      {
+        "name":"HTML",
+        "image": "<img src='https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white' alt='HTML' />"
+      },
+      {
+        "name":"CSS",
+        "image": "<img src='https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white' alt='CSS' />"
+      },
+      {
+        "name":"Git",
+        "image": "<img src='https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white' alt='Git' />"
+      },
+      {
+        "name":"GitHub",
+        "image": "<img src='https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white' alt='GitHub' />"
+      }
+    ]
+	}
+]

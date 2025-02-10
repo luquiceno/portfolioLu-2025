@@ -1,0 +1,35 @@
+---
+import projects from "../collections/projects.json";
+import PageHeading from "../components/Page-heading.astro";
+import Project from "../components/Project.astro";
+import Layout from "../layouts/main.astro";
+---
+
+<Layout title="Projects">
+  <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+    <PageHeading
+      title="Projects"
+      description="These are the most relevant projects I have worked on so far, and where I have been able to apply some of the knowledge acquired along the way as a Front-end Developer."
+    />
+    <div class="z-50 grid items-stretch w-full grid-cols-1 my-8 gap-7 sm:gap-5 sm:grid-cols-2">
+      {
+        projects.map((project) => {
+          return (
+            <Project
+              slug={project.slug}
+              name={project.name}
+              description={project.description}
+              details={project.details}
+              image={project.image}
+              url={project.url}
+            />
+          )
+        })
+      }
+    </div>
+    <div class="flex justify-evenly pt-10">
+      <a href="./" class="text-blue-600 hover:underline">← Home</a>
+      <a href="./experience" class="text-blue-600 hover:underline">← Experience</a>
+    </div>
+  </section>
+</Layout>

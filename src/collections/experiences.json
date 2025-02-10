@@ -1,0 +1,51 @@
+[
+	{
+		"dates": "October 2024 · November 2024",
+		"role": "Front-end Developer",
+		"company": "Volunteer Practice - Adopta Un Junior/LeanMind",
+		"description": "As a participant of the II call of 'Adopta un Junior', I collaborated in a cross-functional team, developing a web application for creating reminders that are sent to email, called CaLEANdar. The application was developed using Astro, with CSS and JavaScript on the frontend, and Firebase services on the backend, including Google account authentication, a real-time database, and Cloud Functions for alerts and reminder creation."
+	},
+	{
+		"dates": "April 2023",
+		"role": "Front-end Developer",
+		"company": "Open Source Contribution - Mozilla PerfCompare",
+		"description": "Contributed to the Mozilla - PerfCompare open source project as an Outreachy 2023 internship applicant. Implemented UI/UX design updates for the Perfcompare tool interface, navigating an existing codebase to deliver text and size adjustments, a new button, background image integration, and a dark mode toggle. Technologies: React, TypeScript, JavaScript, Material UI, Git, GitHub."
+  },
+	{
+		"dates": "October 2022 ",
+		"role": "Front-end Developer",
+		"company": "Open Source Contribution - JupyterHub Project",
+		"description": "As an Outreachy 2023 internship applicant, I contributed to the JupyterHub open source project. Evaluated JupyterHub's web accessibility using the WAVE tool, documenting accessibility issues and proposing solutions. Developed and integrated a pytest plugin, creating a fixture and running some tests within the JupyterHub project. Technologies: Python, Web Accessibility, Git, GitHub, CSS, HTML."
+	},
+  {
+		"dates": "August 2017 · November 2017 ",
+		"role": "Project Employee",
+		"company": "Universidad Tecnológica de Pereira",
+		"description": "Scheduling and conducting progress review meetings on approximately 180 projects submitted by companies from different sectors such as: health, technology, agriculture and tourism. Each meeting provided an update on their activities and potential problems encountered in the development of each project. In addition to serving as a liaison between the projects and the audit team, communicating project status and facilitating proactive problem solving."
+	},
+  {
+		"dates": "January 2016 · October 2016 ",
+		"role": "Project Employee",
+		"company": "Universidad Tecnológica de Pereira",
+		"description": "Create training content for public sector employees on information security auditing ISO 27001:2013, as part of an initiative funded by Colciencias.  Responsibilities included researching the standard and relevant Colombian laws, creating course content (including practical exercises) and setting up the course on a Moodle e-learning platform.  I also obtained the ISO 27001:2013 Internal Auditor certification during this project."
+	},
+  {
+		"dates": "September 2015 · March 2016 ",
+		"role": "Project Employee",
+		"company": "Universidad Tecnológica de Pereira",
+		"description": "I collaborated in a cross-functional team (developers, requirement analyst) to developed a software solutions for regional credit cooperatives, focus on asset management and best practices.  Led a six-person development team, implementing Scrum methodology (daily stand-ups, sprint planning). Responsibilities also included performe administrative tasks, documentation (user manuals), and reporting to management."
+	},
+  {
+		"dates": "September 2013 · July 2015 ",
+		"role": "Junior Functional Business Analyst",
+		"company": "Dat@center S.A",
+		"description": "As a Requirements Analyst for a company developing betting platform software, I collaborated with stakeholders to gather and translate business needs into detailed software requirements. Translated these requirements into UML diagrams and use cases using Enterprise Architect.  Developed and presented interactive prototypes, facilitating clear communication and ensuring a shared understanding of application functionality."
+	},
+  {
+		"dates": "April 2012 · August 2013 ",
+		"role": "Administrator of the Version Control System",
+		"company": "Dat@center S.A",
+		"description": "Responsible for source code version control across the entire application lifecycle (development, testing, and production).  I used Spring Tools IDE with TortoiseSVN to maintain the repository, incorporating all developer code changes. I also had to coordinate with the Infrastructure team to deploy updated files to servers, ensuring seamless releases."
+	}
+
+]

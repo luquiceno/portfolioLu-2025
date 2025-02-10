@@ -1,0 +1,32 @@
+---
+import experiences from "../collections/experiences.json";
+import AboutExperience from "../components/About-experience.astro";
+import PageHeading from "../components/Page-heading.astro";
+import Layout from "../layouts/main.astro";
+---
+
+<Layout title="Experience">
+  <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+    <PageHeading title="Experience" />
+    <div class="px-5 py-10">
+      {
+        experiences.map((experience) => {
+          return (
+            <div class="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
+              <AboutExperience
+                dates={experience.dates}
+                role={experience.role}
+                company={experience.company}
+                description={experience.description} />
+            </div>
+          )
+        })
+      }
+    </div>
+
+    <div class="flex justify-evenly">
+      <a href="./" class="text-blue-600 hover:underline">← Home</a>
+      <a href="./projects" class="text-blue-600 hover:underline">← Projects</a>
+    </div>
+  </section>
+</Layout>

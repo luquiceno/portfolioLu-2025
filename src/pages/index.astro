@@ -1,0 +1,69 @@
+---
+import Button from "../components/Button.astro";
+import Layout from "../layouts/main.astro";
+---
+
+<Layout title="Lucia">
+  <div
+    class="relative z-20 w-full max-w-4xl mx-auto mt-16 px-7 md:mt-24 lg:mt-32 xl:px-0">
+    <div class="flex flex-col items-center md:flex-row">
+      <div class="relative w-full md:w-1/2">
+        <h1 class="flex flex-row mb-4 text-4xl font-bold leading-tight md:text-4xl lg:text-6xl dark:text-white">
+          Hi,<span class="text-5xl w-full h-full md:text-4xl lg:text-5xl">👋</span>
+        </h1>
+        <h2 class="mb-5 text-2xl font-bold leading-tight md:text-4xl lg:text-5xl dark:text-white">
+          I'm Lucia
+        </h2>
+        <p class="mb-5 text-md text-neutral-600 dark:text-neutral-400">
+          I am a Front-end Developer.
+          <br class="hidden lg:block"/>
+          I have worked on projects using the following 
+          <span class="mb-2 font-semibold text-neutral-800 dark:text-neutral-200">
+            Programming Languages
+          </span> and 
+          <span class="mb-2 font-semibold text-neutral-800 dark:text-neutral-200">
+            Technologies
+          </span>:
+        </p>
+      
+        <ul class="py-2 space-y-[3px] text-md list-disc list-inside text-neutral-500 dark:text-neutral-400">
+          <li>React - Astro</li>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS - Tailwind CSS</li>
+          <li>Git - GitHub</li>
+          <li>Figma</li>
+          <li>Scrum methodology and more...</li>
+        </ul>
+      
+        <div class="flex gap-3">
+          <Button text="MY PROJECTS" link="/projects" />
+          <Button text="MY EXPERIENCE" link="/experience" />
+        </div>
+      </div>
+      <div class="relative justify-end hidden w-full mt-10 md:flex md:pl-10 md:w-1/2 md:mt-0 md:translate-y-4 xl:translate-y-0">
+        <div class="relative z-50 w-full">
+          <div
+            class="relative bottom-0 right-0 z-20 w-full h-full lg:h-[300px] translate-x-0 -translate-y-px border border-dashed rounded-2xl bg-gradient-to-r dark:from-neutral-950 dark:via-black dark:to-neutral-950 from-white via-neutral-50 to-white border-neutral-300 dark:border-neutral-700">
+            <img src="/src/assets/images/luPhoto.png" alt="woman with frizzy hair and white skin" class="object-cover w-full h-full rounded-2xl">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="mt-16">
+      <h2 class="mb-5 text-2xl font-bold dark:text-neutral-200">About Me</h2>
+      <div class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg">
+        <p>
+          As a Front-end developer I like challenges and learning from experts. For that reason I am enthusiastic
+          about joining your team, where I can learn and contribute meaningfully to ongoing projects.<br />
+          With nearly five years of work experience, in this new stage as a Front-end developer, I am eager to apply my skills
+          creating applications that are both visually appealing and intuitive to use.
+          For some months I have been self-taught and I have been putting my knowledge into practice
+          through the development of different projects and making also some contributions to Open Source projects of my interest.<br />
+          If you consider that my profile fits the role you are looking for, do not hesitate to contact me.
+        </p>
+      </div>
+    </div>
+  </div>
+</Layout>

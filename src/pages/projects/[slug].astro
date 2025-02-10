@@ -1,0 +1,61 @@
+---
+// import type { GetStaticPathsResult } from 'astro';
+import Layout from "../../layouts/main.astro";
+import projects from "../../collections/projects.json";
+import Button from '../../components/Button.astro';
+
+export async function getStaticPaths() {
+ 
+  return projects.map((project) => {
+    return {
+      params: { slug: project.slug },
+      props: { project },
+    };
+  });
+} 
+
+const { project } = Astro.props;
+const detailsArray = Array.isArray(project.details) ? project.details : [project.details];
+---
+
+<Layout title={`${project.name} | My Projects`}>
+  <div class="max-w-4xl mx-auto px-7 lg:px-0 py-10">
+    <h1 class="text-3xl font-bold text-neutral-900 dark:text-neutral-100 mb-6">
+      {project.name}
+    </h1>
+    <div class="relative w-70 h-90 md:w-70 md:h-90 overflow-hidden">
+      <img src={project.image || "/placeholder.svg"} alt={project.name} class="w-full h-full object-cover rounded-lg shadow-md mb-6" />
+    </div>
+    <div class="text-lg text-neutral-600 dark:text-neutral-400">
+      <ul class="py-5 space-y-[3px] text-md list-disc list-outside text-indent-[-20px] pl-3">
+        {detailsArray.map((detail) => (
+        <li class="text-indent-[-20px] pl-3">{detail}</li>))
+        }
+      </ul>
+    </div>
+    <div class="mb-6">
+      <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-100 mb-4 mt-4">
+        Technologies Used
+      </h2>
+      <div class="flex flex-wrap gap-2">
+        {project.technologies.map((tech) => (
+          <span class="mt-6">
+            {
+              <div set:html={tech.image} />
+            }
+          </span>
+        ))}
+      </div>
+    </div>
+    <div class="flex flex-row justify-between gap-2 mb-6">
+      <div class="flex gap-3 mb-6">
+        <Button text="VIEW DEMO" link={project.url} />
+        <Button text="VIEW ON GITHUB" link={project.urlGit} />
+      </div>  
+      
+      <div class="flex pt-8">
+        <a href="../projects" class="text-blue-600 hover:underline">← Back To Projects</a>
+      </div>
+    </div>
+  </div>
+</Layout>
