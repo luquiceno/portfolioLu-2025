@@ -97,7 +97,7 @@
 		"name": "Mozilla PerfCompare",
 		"description": "Open source contribution.",
     "details": [
-      "As an Outreachy 2023 internship applicant, I contributed to the Mozilla - PerfCompare open source project, focusing on improving the user experience of the Perfcompare tool",
+      "As an Outreachy 2023 internship applicant, I contributed to the Mozilla - PerfCompare open source project, focusing on improving the user experience of the Perfcompare tool.",
       "One of the significant learning experiences in this project was navigating and understanding the project's existing codebase, which strengthened my ability to work within established code structures.",
       "By implementing a new UX design, I enhanced the interface with text and size adjustments, added a new button to improve usability, integrated a background image, and redesigned the dark mode with a toggle switch.",
       "This work demonstrates my ability to translate UX designs into functional UI components using React.js, TypeScript, JavaScript, Material UI, and other relevant technologies, as well as my adaptability in working with pre-existing code."
