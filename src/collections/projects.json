@@ -10,7 +10,7 @@
       "Communicated regularly with the stakeholder “LeanMind” to gather feedback and ensure project alignment, presenting progress updates, and take feedback into account in the design and development process.",
       "Led code reviews, providing constructive feedback to ensure code quality, specifically by reviewing pull requests."
     ],
-		"image": "/src/assets/images/projects/caleandar.png",
+		"image": "/images/caleandar.png",
 		"url": "https://www.linkedin.com/pulse/muy-buenas-personillas-cristina-pozo-lizaur-eme3e/",
     "urlGit": "https://github.com/luquiceno/GT-Caleandar-Front",
     "technologies": [
@@ -62,7 +62,7 @@
       "My work involved building the user interface with React components from the Flowbite library, implementing core functionality with JavaScript, and ensuring a responsive design.",
       "This project demonstrates my ability to learn and apply new technologies independently, as well as in creating educational tools."
     ],
-		"image": "/src/assets/images/projects/languageApp.png",
+		"image": "/images/languageApp.png",
 		"url": "https://apprende.netlify.app/",
     "urlGit": "https://github.com/luquiceno/junior",
     "technologies": [
@@ -102,7 +102,7 @@
       "By implementing a new UX design, I enhanced the interface with text and size adjustments, added a new button to improve usability, integrated a background image, and redesigned the dark mode with a toggle switch.",
       "This work demonstrates my ability to translate UX designs into functional UI components using React.js, TypeScript, JavaScript, Material UI, and other relevant technologies, as well as my adaptability in working with pre-existing code."
     ],
-		"image": "/src/assets/images/projects/perfcompare.png",
+		"image": "/images/perfcompare.png",
 		"url": "https://perf.compare/",
     "urlGit": "https://github.com/mozilla/perfcompare/pull/452",
     "technologies": [
@@ -146,7 +146,7 @@
       "I also developed and integrated a pytest plugin, including a fixture and running tests within the JupyterHub project.",
       "These contributions showcased my skills in web accessibility, Git, Python, and working within a collaborative open-source environment."
     ],
-		"image": "/src/assets/images/projects/jupyter.png",
+		"image": "/images/jupyter.png",
 		"url": "https://github.com/jupyterhub/outreachy/issues/38#issuecomment-1274454640",
     "urlGit": "https://github.com/luquiceno/pytest-pluginlu",
     "technologies": [
@@ -184,7 +184,7 @@
       "Collaborated with a senior backend developer on the development of a screenshot sharing application, utilizing an existing open source project.",
       "This project provided valuable experience in a team-based workflow, including Git version control, code reviews, and enhancing my frontend development skills within a team setting."
     ],
-		"image": "/src/assets/images/projects/screenshot.png",
+		"image": "/images/screenshot.png",
 		"url": "https://github.com/luquiceno/pytest-pluginlu",
     "technologies": [
       {
